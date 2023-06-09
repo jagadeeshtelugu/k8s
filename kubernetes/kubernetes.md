@@ -152,7 +152,7 @@ Initially k8s used docker as a main container  platform and docker used to get s
 * Install docker on all nodes
 * Install CRI-Dockerd [Refer Here](https://github.com/Mirantis/cri-dockerd)
 * Run the below commands as root user in all the nodes
-```
+```bash
 # Run these commands as root
 ###Install GO###
 wget https://storage.googleapis.com/golang/getgo/installer_linux
